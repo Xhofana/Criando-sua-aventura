@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Jim+Nightshade&display=swap"
+        rel="stylesheet">
+    <title>Aventura no Castelo</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="encontrando o castelo">
+            <p>
+                Você é um aventureiro corajoso em busca do lendário tesouro escondido no antigo Castelo de Eldoria. O
+                castelo é conhecido por seus perigos e enigmas, mas também por suas recompensas inestimáveis. Suas
+                decisões determinarão se você conseguirá encontrar o tesouro e sair com vida.
+            </p>
+            <button class="btn-proximo" data-proximo="1">Entrar no castelo</button>
+            <button class="btn-proximo" data-proximo="2">Voltar para a aldeia</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>
+                Você entra no castelo e se depara com dois caminhos
+            </p>
+            <button class="btn-proximo" data-proximo="3">Ir para a direita</button>
+            <button class="btn-proximo" data-proximo="4">Ir para a esquerda </button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>
+                Você entra em uma sala com uma porta trancada e um baú
+            </p>
+            <button class="btn-proximo" data-proximo="5">Tentar abrir o baú</button>
+            <button class="btn-proximo" data-proximo="6">Tentar abrir a porta trancada</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O baú está cheio de ouro e uma chave. Você também encontra uma mensagem enigmática
+            </p>
+            <button class="btn-proximo" data-proximo="7">Ler a mensagem e resolver</button>
+        </div>
+    
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.jpg" alt="imagem voltando para a aldeia">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.
+            </p>
+        </div>
+    
+        <div class="passo" id="passo-5">
+            <p>Ao resolver o enigma, uma porta secreta se abre para um tesouro e o item mágico.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir por um dos dos caminhos</button>
+        </div>
+    
+        <div class="passo" id="passo-6">
+            <p>Você encontra um dragão enorme e feroz ao seguir o caminho</p>
+            <button class="btn-proximo" data-proximo="8">Usar o item mágico para enfrentar o dragão</button>
+        </div>
+    
+        <div class="passo" id="passo-7">
+            <p>O item mágico te ajudou a derrotar o grande dragão e você encontra um tesouro escondido</p>
+            <button class="btn-proximo" data-proximo="9">Recolher o tesouro e ir embora</button>
+            <button class="btn-proximo" data-proximo="10"> Deixar o tesouro e ir embora</button>
+        </div>
+    
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo8.jpg" alt="fim da história">
+            <p>Dentro do antigo Castelo de Eldoria, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar este lugar</p> 
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo8.jpg" alt="fim da história">
+            <p>Dentro do antigo Castelo de Eldoria, você descobre tesouros inimagináveis e decide se dedicar para estudar e preservar este lugar repleto de histórias</p>
+            <button class="btn-proximo" data-proximo="11">Voltar para casa</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
